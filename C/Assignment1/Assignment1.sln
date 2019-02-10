@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrossSalary", "GrossSalary\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pyramid", "Pyramid\Pyramid.vcxproj", "{725E67B3-D097-4901-9612-6D6703A9D1DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Question12", "Question12\Question12.vcxproj", "{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x64.Build.0 = Release|x64
 		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x86.ActiveCfg = Release|Win32
 		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x86.Build.0 = Release|Win32
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Debug|x64.ActiveCfg = Debug|x64
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Debug|x64.Build.0 = Debug|x64
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Debug|x86.Build.0 = Debug|Win32
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Release|x64.ActiveCfg = Release|x64
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Release|x64.Build.0 = Release|x64
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Release|x86.ActiveCfg = Release|Win32
+		{7ECD5914-1860-45FF-89B8-1F7BE77A8D9D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
