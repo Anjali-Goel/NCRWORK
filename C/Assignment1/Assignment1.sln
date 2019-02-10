@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QUESTION2", "QUESTION2\QUESTION2.vcxproj", "{81C226E7-5834-4E59-920B-4902CF741865}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwise_oper", "bitwise_oper\bitwise_oper.vcxproj", "{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{81C226E7-5834-4E59-920B-4902CF741865}.Release|x64.Build.0 = Release|x64
 		{81C226E7-5834-4E59-920B-4902CF741865}.Release|x86.ActiveCfg = Release|Win32
 		{81C226E7-5834-4E59-920B-4902CF741865}.Release|x86.Build.0 = Release|Win32
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Debug|x64.ActiveCfg = Debug|x64
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Debug|x64.Build.0 = Debug|x64
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Debug|x86.Build.0 = Debug|Win32
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Release|x64.ActiveCfg = Release|x64
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Release|x64.Build.0 = Release|x64
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Release|x86.ActiveCfg = Release|Win32
+		{BC5DFD49-666F-4CB4-B70C-069E06C39AE6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
