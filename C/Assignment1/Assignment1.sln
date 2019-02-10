@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PositiveNumbers", "Positive
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrossSalary", "GrossSalary\GrossSalary.vcxproj", "{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pyramid", "Pyramid\Pyramid.vcxproj", "{725E67B3-D097-4901-9612-6D6703A9D1DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x64.Build.0 = Release|x64
 		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x86.ActiveCfg = Release|Win32
 		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x86.Build.0 = Release|Win32
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Debug|x64.ActiveCfg = Debug|x64
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Debug|x64.Build.0 = Debug|x64
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Debug|x86.Build.0 = Debug|Win32
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x64.ActiveCfg = Release|x64
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x64.Build.0 = Release|x64
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x86.ActiveCfg = Release|Win32
+		{725E67B3-D097-4901-9612-6D6703A9D1DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
