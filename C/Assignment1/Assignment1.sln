@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Value", "Binary_Valu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PositiveNumbers", "PositiveNumbers\PositiveNumbers.vcxproj", "{E6329148-C5F7-44BB-BA15-A229E7B6CCBF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrossSalary", "GrossSalary\GrossSalary.vcxproj", "{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{E6329148-C5F7-44BB-BA15-A229E7B6CCBF}.Release|x64.Build.0 = Release|x64
 		{E6329148-C5F7-44BB-BA15-A229E7B6CCBF}.Release|x86.ActiveCfg = Release|Win32
 		{E6329148-C5F7-44BB-BA15-A229E7B6CCBF}.Release|x86.Build.0 = Release|Win32
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Debug|x64.ActiveCfg = Debug|x64
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Debug|x64.Build.0 = Debug|x64
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Debug|x86.ActiveCfg = Debug|Win32
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Debug|x86.Build.0 = Debug|Win32
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x64.ActiveCfg = Release|x64
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x64.Build.0 = Release|x64
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x86.ActiveCfg = Release|Win32
+		{637B2D3E-80F6-4BDE-8FA8-DAA61ECF6585}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
