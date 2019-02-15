@@ -1,47 +1,60 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
+#include<string.h>
 using namespace std;
 class student {
+	int marks[3];
 	char* name;
-	int marks1;
-	int marks2;
-	int marks3;
+	char* grade;
 	float avg;
 public :
 	void set_data()
 	{
-		char N[50];
+		char N[100];
 		cout << "ENTER THE NAME OF THE STUDENT : ";
 		cin >> N;
-		name = new char;
+		int l = strlen(N) + 1;
+		name = (char*)malloc(sizeof(char)*l);
+		strcpy(name, N);
 		cout << "ENTER THE STUDENT'S MARKS : ";
-		cin >> marks1 >> marks2 >> marks3;
+		cin >> marks[0] >> marks[1] >> marks[2];
 	}
-	void compute_average()
+	float compute_average()
 	{
-		float avg = (marks1 + marks2 + marks3) / 3;
-		cout << "AVERAGE MARKS OF THE STUDENT : " << avg << endl;
+		float avg = (float)(marks[0] + marks[1] + marks[2]) / 3;
+		return avg;
 	}
-	void compute_grade()
+	void compute_grade(float avg)
 	{
-		if (avg > 60)
-			cout << "THE STUDENT PASSED WITH FIRST CLASS:D:D" << endl;
-		else if (avg > 50 && avg < 60)
-			cout << "THE STUDENT PASSED WTH SECOND CLASS:D" << endl;
-		else if (avg > 40 && avg < 50)
-			cout << "THE STUDENT PASSED WITH THIRD CLASS:)" << endl;
-		else if (avg < 40)
-			cout << "THE STUDENT HAS FAILED :(" << endl;
+		grade = (char*)malloc(sizeof(char)*13);
+		if (avg > 60 && marks[0] > 40 && marks[1] > 40 && marks[2] > 40)
+			strcpy(grade,"FIRST CLASS");
+		else if (avg > 50 && avg < 60 && marks[0] > 40 && marks[1] > 40 && marks[2] > 40)
+			strcpy(grade,"SECOND CLASS");
+		else if (avg > 40 && avg < 50 && marks[0] > 40 && marks[1] > 40 && marks[2] > 40)
+			strcpy(grade,"THIRD CLASS");
+		else if (marks[0] < 40 || marks[1] < 40 || marks[2] < 40)
+			strcpy(grade,"FAIL");
 		else
 			;
+	}
+	void display()
+	{
+		cout << "STUDENT PERFORMANCE" << endl;
+		cout << "STUDENT NAME : " << name << endl;
+		cout << "MARKS :" << endl << marks[0] << endl << marks[1] << endl << marks[2] << endl;
+		cout << "GRADE : " << grade;
 	}
 };
 int main()
 {
 	int i;
+	float a;
 	student s1;
 	s1.set_data();
-	s1.compute_average();
-	s1.compute_grade();
+	a = s1.compute_average();
+	s1.compute_grade(a);
+	s1.display();
 	cin >> i;
 	return 0;
 }
