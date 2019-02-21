@@ -63,5 +63,9 @@ public :
 		t.img = img;
 		return t;
 	}
-
+	complx operator,(complx c)
+	{
+		return c;
+	}
+	friend ostream& operator<<()
 };

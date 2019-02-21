@@ -1,3 +1,6 @@
+/*Write a C program that accepts integers from the keyboard until we enter a zero or a
+negative number. The program will output the number of positive values entered, the
+minimum value, the maximum value and the average of all numbers.*/
 #include<stdio.h>
 main()
 {

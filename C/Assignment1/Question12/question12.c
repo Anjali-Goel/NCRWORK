@@ -1,3 +1,5 @@
+/*Write a C program with a function rotoate_right(n, b).This function rotates integer n
+towards right by b positions*/
 #include<stdio.h>
 int rotate_right(int, int);
 int pow(int, int);

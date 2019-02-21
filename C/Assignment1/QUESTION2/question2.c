@@ -1,3 +1,8 @@
+/*Use scanf function to read a string of characters (into character type array called text)
+including alphabets, digits, blanks, tabs etc except new line character. Write a loop that
+will examine each character in a character-type array and determine how many of the
+characters are letters, how many are digits, how many are blanks and how many are
+tabs. Assume that text contains 80 characters.*/
 #include<stdio.h>
 #include<string.h>
 main()

@@ -1,3 +1,7 @@
+/*A decimal number between 0 and 32 exclusive can be expressed in binary system as
+x4x3x2x1x0, where xi ’s are either zero or one. Write a C program that accepts (from
+the terminal) a decimal number in the above range and prints out the equivalent binary
+representation with leading bit 1.*/
 #include<stdio.h>
 main()
 {

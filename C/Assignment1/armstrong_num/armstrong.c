@@ -1,3 +1,4 @@
+/*Write a Program to find if a given number is Armstrong number*/
 #include<stdio.h>
 int pow(int, int);
 main()

@@ -1,3 +1,9 @@
+/*Generate the following pyramid of numbers using nested loops
+    1
+   212
+  32123
+ 4321234
+543212345*/
 #include<stdio.h>
 main()
 {

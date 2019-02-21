@@ -1,10 +1,13 @@
+/*Develop a calculator program with 4 functionalities namely addition, substraction,
+multiplication and division. Use multifile program and also use storage class specifiers
+wherver required.*/
 #include<stdio.h>
 int add(int, int);
 int sub(int, int);
-long int mul(int, int);
+long long int mul(int, int);
 float div(int, int);
 int res = -1;
-long int prod = -1;
+long long int prod = -1;
 float quo = -1;
 main()
 {

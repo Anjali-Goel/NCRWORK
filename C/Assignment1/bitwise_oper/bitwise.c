@@ -1,3 +1,8 @@
+/*Consider int val=0xCAFE; Write expressions using bitwise operators that do the
+following:
+a. test if atleast three of last four bits (LSB) are on
+b. reverse the byte order (i.e., produce val=0xFECA)
+c. rotate fourbits (i.e., produce val=0xECAF)*/
 #include<stdio.h>
 main()
 {
