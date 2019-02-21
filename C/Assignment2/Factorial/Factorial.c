@@ -1,3 +1,4 @@
+/*Write a program to find a factorial of number*/
 #include<stdio.h>
 main()
 {
