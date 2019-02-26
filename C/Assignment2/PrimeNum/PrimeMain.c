@@ -1,3 +1,4 @@
+/*Write a program to print prime number between two intervals*/
 #include<stdio.h>
 int checkprime(int);
 main()
