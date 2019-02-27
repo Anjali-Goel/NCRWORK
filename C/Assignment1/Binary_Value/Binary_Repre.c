@@ -6,19 +6,19 @@ representation with leading bit 1.*/
 main()
 {
 	int a, i;
-	int x[5];
+	int x[5];//ARRAY OF 5 ELEMENTS TO STORE THE 5-BIT BINARY VALUE
 	char exit;
 	printf("ENTER A NUMBER BETWEEN 0-31 : ");
 	scanf_s("%d", &a);
-	for (i = 0; i < 5; ++i)
+	for (i = 0; i < 5; ++i)//CONVERSION OF DECIMAL TO BINARY
 	{
 		x[i] = a % 2;
 		a = a / 2;
 	}
 	x[4] = 1;
-	for (i = 0; i < 5; ++i)
+	for (i = 4; i >=0; --i)
 		printf("%d", x[i]);
-    printf("\nPRESS ENTER TO EXIT");
+    printf("\nPRESS ANY KEY TO EXIT");
 	scanf_s("%c", &exit);
 	getchar();
 }

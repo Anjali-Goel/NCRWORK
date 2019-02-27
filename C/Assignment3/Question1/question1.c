@@ -28,17 +28,20 @@ int main()
 			temp = temp + array[j];
 			if (temp == sum)
 			{
+				flag = 1;
 				l_limit = i;
 				h_limit = j;
-				flag = 1;
 			}
 			else
 			{
 				flag = 0;
 			}
 		}
-
 	}
+	if (1 == flag)
+		printf("\nSUM FOUND BETWEEN INDICES %d AND %d.", l_limit, h_limit);
+	else
+		printf("\nSUB-ARRAY NOT FOUND.");
 	scanf_s("%d", &temp);
 	getchar();
 	return 0;
