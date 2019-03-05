@@ -1,4 +1,9 @@
 // practise_day01.cpp : This file contains the 'main' function. Program execution begins and ends there.
+/*
+Write a program to convert ANSI string to Wide character string and vice versa.
+Use MultiByteToWideChar and WideCharToMultiByte for conversion and IsTextUnicode for testing the results. 
+Note that IsTextUnicode output may not be always correct.
+*/
 #include "pch.h"
 #include <iostream>
 #include<Windows.h>

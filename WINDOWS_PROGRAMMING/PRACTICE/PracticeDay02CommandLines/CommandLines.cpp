@@ -1,5 +1,7 @@
 // PracticeDay02CommandLines.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/* Implement a program where command line arguments passed to program are read via GetCommandLine
+and converted to argv style by CommandLineToArgvW.
+*/
 
 #include "pch.h"
 #include <iostream>

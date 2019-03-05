@@ -1,7 +1,7 @@
 #include<stdio.h>
-float div(int a, int b)
+double div(int a, int b)
 {   
-	float x;
-	x = (float)a / b;
+	double x;
+	x = (double)a / b;
 	return(x);
 }
