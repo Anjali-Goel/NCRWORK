@@ -61,6 +61,7 @@ matrix matrix_multiply(matrix m1, matrix m2)
 	else
 	{
 		prod = matrix(m1.rows, m2.cols);
+			// matrix(i,j)*matrix(j,k)=matrix(i,k)
 		for (i = 0; i < prod.rows; ++i)
 		{
 			for (j = 0; j < prod.cols; ++j)
@@ -80,8 +81,11 @@ int main()
 {
 	int a;
 	matrix m1, m2, p;
+		//matrix input 1
 	m1.set_matrix_data();
+		//matrix input 2
 	m2.set_matrix_data();
+		//product of the matrices
 	p = matrix_multiply(m1, m2);
 	cout << "The resultant matrix is" << endl;
 	p.display_matrix();

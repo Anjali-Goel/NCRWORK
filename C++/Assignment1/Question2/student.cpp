@@ -1,3 +1,17 @@
+/*
+Create a class named student with fields studentName, grade, and marks of three
+subjects. Class student contains the following functions:
+set_Data(studentName,marks1,marks2,mark3)
+Sets student data into the object
+calculateAverage():
+Compute average student marks
+ComputeGrade()
+If avg > 60 first class
+If 50 < avg < 60 second class
+If 40 < avg < 50 third class
+Fail if any subject marks are less than 40
+display(): prints student details
+*/
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 #include<string.h>
@@ -8,14 +22,23 @@ class student {
 	char* grade;
 	float avg;
 public :
+	void free_memory()
+	{
+		free(name);
+		free(grade);
+	}
 	void set_data()
 	{
-		char N[100];
+		char ch;
+		int j;
 		cout << "ENTER THE NAME OF THE STUDENT : ";
-		cin >> N;
-		int l = strlen(N) + 1;
-		name = (char*)malloc(sizeof(char)*l);
-		strcpy(name, N);
+		while (cin >> ch && ch != '\0')
+		{
+			name =(char*)realloc(name, (i + 2) * sizeof(char));
+			*(name + j) = ch;
+			*(name + j + 1) = '\0';
+			++i;
+		}
 		cout << "ENTER THE STUDENT'S MARKS : ";
 		cin >> marks[0] >> marks[1] >> marks[2];
 	}
@@ -55,6 +78,7 @@ int main()
 	a = s1.compute_average();
 	s1.compute_grade(a);
 	s1.display();
+	s1.free_memory();//freeing the memory allocated to name and grade fields 
 	cin >> i;
 	return 0;
 }

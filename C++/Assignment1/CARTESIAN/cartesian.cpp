@@ -1,15 +1,20 @@
+/*
+Define a point class, where each object represents a point in Cartesian coordinates
+(x, y). Define objects of this class and calculate the distance between the 2 points
+through a friend function.
+*/
 #include<iostream>
 using namespace std;
 class point
 {
-	float x;
-	float y;
+	float x; //x coordinate
+	float y; //y coordinate
 public : 
 	point()
 	{
 		cin >> x >> y;
 	}
-	friend float distance_points(point&, point&);
+	friend float distance_points(point&, point&); 
 };
 int main()
 {
@@ -25,6 +30,7 @@ int main()
 	cin >> i;
 	return 0;
 }
+	//calculates the distance between the points
 float distance_points(point &a, point &b)
 {
 	float d;

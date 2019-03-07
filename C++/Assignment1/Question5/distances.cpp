@@ -1,3 +1,12 @@
+/*
+ Create two classes Distance1 & Distance2 that store the value of distances.
+Distance1 stores distance in meters and centimeters and Distance2 stores the
+distance in feet and inches. Write a program that can read values for the class
+objects and add one object of Distance1 with another object of Distance2. Use a
+friend function to carry out the addition operation. The object that stores the results
+may be a Distance1 or Distance2 object, depending on the unit in which the result is
+required.
+*/
 #include<iostream>
 using namespace std;
 class distance2;
@@ -46,10 +55,13 @@ public :
 int main()
 {
 	int i;
+		//input 1 in m-cm
 	distance1 p;
 	p.input_d1();
+		//input 2 in feet-inch
 	distance2 q;
 	q.input_d2();
+		//adding the two distances and storing in one of them
 	add_distances(p, q);
 	cin >> i;
 	return 0;

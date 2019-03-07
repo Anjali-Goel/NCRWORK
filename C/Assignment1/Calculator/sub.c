@@ -1,5 +1,5 @@
 #include<stdio.h>
-double sub(int a, int b)
+double sub(float a, float b)
 {
 	return(a - b);
 }

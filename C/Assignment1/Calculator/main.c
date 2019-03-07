@@ -3,17 +3,17 @@ multiplication and division. Use multifile program and also use storage class sp
 wherver required.*/
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-double add(int,int);
-double sub(int, int);
-double mul(int, int);
-double div(int, int);
+double add(float,float);
+double sub(float,float);
+double mul(float, float);
+double div(float, float);
 double result = -1;
 int main()
 {
-	int operand1=0, operand2=0;
+	float operand1=0, operand2=0;
 	char exit, operation;
 	printf("\nENTER THE INPUTS\n");
-	if (scanf("%d", &operand1))   //TAKING INPUT OPERAND
+	if (scanf("%f", &operand1))   //TAKING INPUT OPERAND
 	//IF INPUT ENTERED IS INTEGER
 	{
 		result = operand1;
@@ -32,7 +32,7 @@ int main()
 				else
 					//IF A VALID CHARACTER IS GIVEN TAKES THE OTHER OPERAND
 				{
-					if (scanf("%d", &operand2))
+					if (scanf("%f", &operand2))
 						//IF A VALID INTEGER OPERAND IS ENTERED,CHECKS FOR THE OPERATION TO BE PERFORMED
 						//IF THE CHARACTER ENTERED IS NOT OPERATOR, PRINTS A MESSAGE.
 					{
@@ -54,7 +54,8 @@ int main()
 
 					{
 						printf("\nINAVLID INPUT ENTERED!");
-						break;
+						getchar();
+						return 0;
 					}
 				}
 
@@ -63,7 +64,8 @@ int main()
 				//when the operator entered is other than character
 			{
 				printf("\nINAVLID INPUT ENTERED!!");
-				break;
+				getchar();
+				return 0;
 			}
 		}
 	}

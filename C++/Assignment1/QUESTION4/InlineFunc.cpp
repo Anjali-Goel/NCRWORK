@@ -1,3 +1,7 @@
+/*
+Write a C++ program to perform a different arithmetic operation such as addition,
+subtraction, division, modulus, and multiplication using an inline function
+*/
 #include<iostream>
 using namespace std;
 inline int add(int a,int b)

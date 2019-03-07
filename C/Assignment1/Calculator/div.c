@@ -1,5 +1,5 @@
 #include<stdio.h>
-double div(int a, int b)
+double div(float a, float b)
 {   
 	double x;
 	x = (double)a / b;
